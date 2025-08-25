@@ -66,4 +66,4 @@ flowchart TD
     P --> D
 
 
-<p align="center"> <a href="https://azure.microsoft.com/"> <img src="https://cdn.worldvectorlogo.com/logos/azure-2.svg" width="45" title="Azure" /> </a> <a href="https://learn.microsoft.com/azure/synapse-analytics/"> <img src="https://cdn.worldvectorlogo.com/logos/azure-synapse-analytics.svg" width="45" title="Azure Synapse" /> </a> <a href="https://airflow.apache.org/"> <img src="https://cdn.worldvectorlogo.com/logos/apache-airflow.svg" width="45" title="Apache Airflow" /> </a> <a href="https://www.databricks.com/"> <img src="https://cdn.worldvectorlogo.com/logos/databricks.svg" width="45" title="Databricks" /> </a> <a href="https://www.python.org/"> <img src="https://cdn.worldvectorlogo.com/logos/python-5.svg" width="45" title="Python" /> </a> <a href="https://powerbi.microsoft.com/"> <img src="https://cdn.worldvectorlogo.com/logos/power-bi-1.svg" width="45" title="Power BI" /> </a> </p> ```
+
