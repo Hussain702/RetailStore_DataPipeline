@@ -39,22 +39,24 @@ A scalable data engineering pipeline for retail analytics, built using **Databri
 
 ## 📊 Pipeline Diagram  
 
+The solution follows the **Medallion Architecture** (Bronze → Silver → Gold) with **Azure Synapse Analytics** as the serving layer.
+
 ```mermaid
 flowchart TD
-    A[📂 Raw Data Sources] -->|Extract| B[🌊 Azure Data Lake - Bronze]
-    B -->|PySpark Cleaning| C[🌊 Azure Data Lake - Silver]
-    C -->|Star Schema Modeling| D[🌊 Azure Data Lake - Gold]
-    D -->|PolyBase Load| E[🗄️ Azure Synapse Analytics]
-    E -->|BI Queries| F[📊 Power BI / Reports]
+    A[Raw Retail Data] -->|Ingest| B[Azure Data Lake - Bronze]
+    B -->|Clean + Standardize| C[Azure Data Lake - Silver]
+    C -->|Aggregate + Enrich| D[Azure Data Lake - Gold]
+    D -->|PolyBase Load| E[Azure Synapse Analytics - Star Schema]
+    E -->|BI Queries| F[Power BI / Reports]
 
     subgraph Orchestration
-        O[⏱️ Apache Airflow]
+        O[Apache Airflow]
     end
     
     subgraph Processing
-        P[⚡ Databricks (PySpark)]
+        P[Databricks - PySpark]
     end
-    
+
     O --> B
     O --> C
     O --> D
