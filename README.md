@@ -62,3 +62,28 @@ flowchart TD
     O --> D
     P --> C
     P --> D
+
+
+### 🔧 Tools & Tech Used  
+
+<p align="center">
+  <a href="https://azure.microsoft.com/" target="_blank">
+    <img src="https://cdn.worldvectorlogo.com/logos/azure-2.svg" width="45" />
+  </a>
+  <a href="https://learn.microsoft.com/azure/synapse-analytics/" target="_blank">
+    <img src="https://cdn.worldvectorlogo.com/logos/azure-synapse-analytics.svg" width="45" />
+  </a>
+  <a href="https://airflow.apache.org/" target="_blank">
+    <img src="https://cdn.worldvectorlogo.com/logos/apache-airflow.svg" width="45" />
+  </a>
+  <a href="https://www.databricks.com/" target="_blank">
+    <img src="https://cdn.worldvectorlogo.com/logos/databricks.svg" width="45" />
+  </a>
+  <a href="https://www.python.org/" target="_blank">
+    <img src="https://cdn.worldvectorlogo.com/logos/python-5.svg" width="45" />
+  </a>
+  <a href="https://powerbi.microsoft.com/" target="_blank">
+    <img src="https://cdn.worldvectorlogo.com/logos/power-bi-1.svg" width="45" />
+  </a>
+</p>
+
