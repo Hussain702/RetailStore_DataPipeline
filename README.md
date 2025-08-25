@@ -41,6 +41,8 @@ A scalable data engineering pipeline for retail analytics, built using **Databri
 
 The solution follows the **Medallion Architecture** (Bronze → Silver → Gold) with **Azure Synapse Analytics** as the serving layer.
 
+### Data Engineering Pipeline
+
 ```mermaid
 flowchart TD
     A[Raw Retail Data] -->|Ingest| B[Azure Data Lake - Bronze]
